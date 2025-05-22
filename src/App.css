@@ -1,0 +1,122 @@
+nav{
+  /* border: 1px solid red; */
+  display: flex;
+  padding: 5px ;
+}
+.logo{
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  flex: .4;
+  cursor: pointer;
+  padding-left: 10px;
+  gap: 15px
+  ;
+}
+.logo img{
+width: 100px;
+height: 20px;
+cursor: pointer;
+}
+.serach{
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  /* height: 70%; */
+
+}
+.serch{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  border: 1px solid black;
+  width: 50%;
+  height: 65%;
+  border-radius: 55px;
+  /* padding: 2px; */
+  padding-left: 5px;
+}
+.serch input{
+/* cursor: pointer; */
+  border: none;
+  margin-left: 5px;
+  /* height: 80%; */
+  width: 80%
+  ;
+  font-size: 15px;
+  padding: 4px;
+  /* font-size: 20px; 
+  */
+}
+.Xmark i{
+  font-size: 35px;
+color:black;
+font-weight: 100;
+cursor: pointer;
+margin-bottom: 10px;
+}
+.Xmark{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  /* background-color: darkblue; */
+  /* height: 90%; */
+  /* margin-bottom: 20px; */
+  /* padding: 5px; */
+}
+
+.srcicon{
+  /* background-color: red; */
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 100%;
+  width: 50px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border-top-right-radius: 43%;
+  border-bottom-right-radius: 43%;
+  margin: 0;
+  border-left: 1px solid black;
+  cursor: pointer;
+}
+
+.notifications{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  flex: .3;
+/* border: 1px solid red; */
+padding-right: 10px;
+}
+.notifications i{
+  font-size: 20px;
+  cursor: pointer;
+}
+.notifications img{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.pk{
+  /* background-color: red; */
+  position: relative;
+  color: black;
+  bottom: 10px;
+  right: 10px;
+  font-size: .8em;
+  /* font-weight: 100; */
+}
+.notificatiosn sup{
+  background-color: red;
+  color: white;
+  text-align: center;
+ font-size: 10px;
+  padding: 1px 4px 2px 4px ;
+  border-radius :20px;
+  position: relative;
+  bottom: 4px;
+  right: 10px;
+}

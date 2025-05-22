@@ -1,0 +1,45 @@
+.bars{
+    /* color: red; */
+    border:none;
+    padding: 6px;
+    border-radius: 50%;
+}
+.bars:hover{
+
+    background-color: rgb(0, 0, 0,.2);
+    cursor: pointer;
+}
+
+.slide{
+    background-color: red;
+    width: 15%;
+    height: 100vh;
+position: fixed;
+left: -50%;
+color: white;
+font-size: 25px;
+transition: left .5s linear;
+top: 0;
+}
+
+.slideAcrive{
+
+    left: 0px;
+}
+
+.layer{
+   
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    width:100%;
+    display: none;
+}
+.layerClz{
+    display: block;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
